@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: ui_approach/nginx      # path of Nginx app in `argocd-demos` repo
   destination:
-    server: https://10.1.1.162:33893 # Replace with your Cluster Url, To get run: `argocd cluster list`
+    server: https://10.0.1.4:33893 # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default           # Deploys into default namespace
   syncPolicy:
     automated:
